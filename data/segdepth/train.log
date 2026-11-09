@@ -1,0 +1,39 @@
+seg train frames 16 test 8 | depth train frames 448 test 295
+class weights [0.52 1.55 0.39 1.71 0.83]
+it 0 seg 0.902 depth 0.0889 lr 0.00200 1s
+it 50 seg 0.607 depth 0.1061 lr 0.00200 44s
+it 100 seg 0.469 depth 0.1351 lr 0.00199 87s
+it 150 seg 0.562 depth 0.1063 lr 0.00197 132s
+it 200 seg 0.520 depth 0.0951 lr 0.00195 178s
+it 250 seg 0.413 depth 0.0823 lr 0.00192 224s
+it 300 seg 0.289 depth 0.0856 lr 0.00188 271s
+it 350 seg 0.276 depth 0.0795 lr 0.00184 317s
+it 400 seg 0.272 depth 0.0931 lr 0.00179 363s
+it 450 seg 0.210 depth 0.0868 lr 0.00174 411s
+it 500 seg 0.210 depth 0.0753 lr 0.00168 458s
+it 550 seg 0.195 depth 0.0923 lr 0.00162 504s
+it 600 seg 0.138 depth 0.0858 lr 0.00155 547s
+it 650 seg 0.169 depth 0.0893 lr 0.00148 591s
+it 700 seg 0.142 depth 0.0967 lr 0.00141 635s
+it 750 seg 0.161 depth 0.0804 lr 0.00133 679s
+it 800 seg 0.153 depth 0.0875 lr 0.00126 726s
+it 850 seg 0.138 depth 0.0827 lr 0.00118 775s
+it 900 seg 0.109 depth 0.0824 lr 0.00110 822s
+it 950 seg 0.092 depth 0.1036 lr 0.00102 872s
+it 1000 seg 0.116 depth 0.0894 lr 0.00094 922s
+it 1050 seg 0.089 depth 0.0676 lr 0.00087 970s
+it 1100 seg 0.081 depth 0.0820 lr 0.00079 1018s
+it 1150 seg 0.093 depth 0.0719 lr 0.00072 1067s
+it 1200 seg 0.088 depth 0.0665 lr 0.00065 1117s
+it 1250 seg 0.090 depth 0.0800 lr 0.00058 1166s
+it 1300 seg 0.094 depth 0.0700 lr 0.00052 1218s
+it 1350 seg 0.087 depth 0.0708 lr 0.00046 1269s
+it 1400 seg 0.072 depth 0.0634 lr 0.00041 1317s
+it 1450 seg 0.069 depth 0.0728 lr 0.00036 1366s
+it 1500 seg 0.063 depth 0.0760 lr 0.00032 1415s
+it 1550 seg 0.066 depth 0.0909 lr 0.00028 1463s
+it 1600 seg 0.078 depth 0.0864 lr 0.00025 1511s
+it 1650 seg 0.064 depth 0.0873 lr 0.00023 1558s
+it 1700 seg 0.063 depth 0.0593 lr 0.00021 1603s
+it 1750 seg 0.065 depth 0.0629 lr 0.00020 1649s
+done 1694.7685134410858

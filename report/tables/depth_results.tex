@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & AbsRel & RMSE-log & $\delta<1.25$ (\%) & AbsRel (scale-aligned) & SILog & Spearman $\rho$ \\
+\midrule
+Constant (train median) & 0.502 & 0.557 & 30.3 & 0.425 & 0.557 & -- \\
+Row prior & 0.447 & 0.515 & 33.4 & 0.331 & 0.515 & 0.37 \\
+Ground-plane geometry & 1.537 & 0.983 & 13.6 & 0.406 & 0.752 & 0.33 \\
+Gradient boosting (per pixel) & 0.392 & 0.470 & 38.9 & 0.302 & 0.469 & 0.55 \\
+U-Net (NumPy, ours) & 0.442 & 0.511 & 34.6 & 0.350 & 0.511 & 0.46 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,3 @@
+/home/claude/social_av/code/segdepth/data_prep.py:32: RuntimeWarning: All-NaN slice encountered
+  with np.errstate(all='ignore'): Zd = np.nanmedian(Zb, axis=2)
+data/segdepth/depth_b.npz 483
